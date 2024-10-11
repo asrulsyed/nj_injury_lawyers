@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 const Blogs = () => {
   return (
     <div className="flex justify-center">
-      <div className="max-w-[1400px] w-full flex flex-col gap-5 ">
+      <div className="max-w-[1400px] w-full flex flex-col gap-5">
         <NavLink to="/blogs/:1">
           <p>First Article</p>
         </NavLink>
