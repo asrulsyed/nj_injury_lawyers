@@ -5,7 +5,7 @@ import NavItem from "./NavItem";
 const Header = () => {
   return (
     <header className="flex items-center justify-center bg-color2 ">
-      <div className="flex w-full max-w-[1400px] items-center justify-between py-5">
+      <div className="flex w-full max-w-[1200px] items-center justify-between py-5">
         <div className="flex items-center gap-5">
           <NavLink to="/" className="flex items-center gap-3">
             <img
