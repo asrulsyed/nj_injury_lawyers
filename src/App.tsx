@@ -20,6 +20,7 @@ import Blog5 from "./blogs/Blog5";
 import Blog4 from "./blogs/Blog4";
 import Blog3 from "./blogs/Blog3";
 import Blog2 from "./blogs/Blog2";
+import BlogLayout from "./Layout/BlogLayout";
 // import ConfirmAlert1 from "./pages/ConfirmAlert1";
 
 const router = createBrowserRouter([
@@ -33,41 +34,42 @@ const router = createBrowserRouter([
       },
       {
         path: "/blogs",
+        element: <BlogLayout />,
         children: [
           {
             path: '/blogs',
             element: <Blogs />
           },
           {
-            path: '/blogs/:1',
+            path: '/blogs/1',
             element: <Blog1 />
           },
           {
-            path: '/blogs/:2',
+            path: '/blogs/2',
             element: <Blog2 />
           },
           {
-            path: '/blogs/:3',
+            path: '/blogs/3',
             element: <Blog3 />
           },
           {
-            path: '/blogs/:4',
+            path: '/blogs/4',
             element: <Blog4 />
           },
           {
-            path: '/blogs/:5',
+            path: '/blogs/5',
             element: <Blog5 />
           },
           {
-            path: '/blogs/:6',
+            path: '/blogs/6',
             element: <Blog6 />
           },
           {
-            path: '/blogs/:7',
+            path: '/blogs/7',
             element: <Blog7 />
           },
           {
-            path: '/blogs/:8',
+            path: '/blogs/8',
             element: <Blog8 />
           },
         ]
