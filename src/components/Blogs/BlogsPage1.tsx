@@ -1,20 +1,23 @@
 import { NavLink } from "react-router-dom";
 
-const Blogs = () => {
+const BlogsPage1 = () => {
   return (
     <div className="flex justify-center">
       <div className="flex w-[80%] max-w-[800px] flex-col gap-5">
-        <NavLink to="/blogs/1">
-          <div className="grid grid-cols-4 items-center gap-10 px-5">
+        <NavLink to="/blogs/page1/1">
+          <div className="grid items-center grid-cols-4 gap-10 px-5">
             <div className="h-[124px] overflow-hidden">
-              <img src="/images/blogs/1/1.webp" className="h-[124px] w-full object-cover object-center rounded-xl border-4" />
+              <img
+                src="/images/blogs/1/1.webp"
+                className="h-[124px] w-full rounded-xl border-4 object-cover object-center"
+              />
             </div>
             <div className="col-span-3">
-              <h1 className="mb-5 line-clamp-1 text-justify text-2xl font-bold">
+              <h1 className="mb-5 text-2xl font-bold text-justify line-clamp-1">
                 Injury Attorneys and Product Liability: Holding Manufacturers
                 Accountable
               </h1>
-              <p className="line-clamp-3 text-justify">
+              <p className="text-justify line-clamp-3">
                 When a product fails and causes harm, it can disrupt your life
                 significantly. That's where injury attorneys step in,
                 specializing in product liability cases to ensure that
@@ -27,17 +30,20 @@ const Blogs = () => {
           </div>
         </NavLink>
         <hr />
-        <NavLink to="/blogs/2">
-          <div className="grid grid-cols-4 items-center gap-10 px-5">
+        <NavLink to="/blogs/page1/2">
+          <div className="grid items-center grid-cols-4 gap-10 px-5">
             <div className="h-[124px] overflow-hidden">
-              <img src="/images/blogs/2/1.webp" className="h-[124px] w-full object-cover object-center rounded-xl border-4" />
+              <img
+                src="/images/blogs/2/1.webp"
+                className="h-[124px] w-full rounded-xl border-4 object-cover object-center"
+              />
             </div>
             <div className="col-span-3">
-              <h1 className="mb-5 line-clamp-1 text-justify text-2xl font-bold">
+              <h1 className="mb-5 text-2xl font-bold text-justify line-clamp-1">
                 How to Handle Insurance Adusters: Strategies Recommended by
                 Injury Attorneys
               </h1>
-              <p className="line-clamp-3 text-justify">
+              <p className="text-justify line-clamp-3">
                 The moment following an injury is often fraught with confusion,
                 pain, and a whirlwind of decisions to make. One of the most
                 pivotal steps in this process involves dealing with insurance
@@ -53,17 +59,20 @@ const Blogs = () => {
           </div>
         </NavLink>
         <hr />
-        <NavLink to="/blogs/3">
-          <div className="grid grid-cols-4 items-center gap-10 px-5">
+        <NavLink to="/blogs/page1/3">
+          <div className="grid items-center grid-cols-4 gap-10 px-5">
             <div className="h-[124px] overflow-hidden">
-              <img src="/images/blogs/3/1.webp" className="h-[124px] w-full object-cover object-center rounded-xl border-4" />
+              <img
+                src="/images/blogs/3/1.webp"
+                className="h-[124px] w-full rounded-xl border-4 object-cover object-center"
+              />
             </div>
             <div className="col-span-3">
-              <h1 className="mb-5 line-clamp-1 text-justify text-2xl font-bold">
+              <h1 className="mb-5 text-2xl font-bold text-justify line-clamp-1">
                 The Impact of Pre-Existing Conditions on Your Injury Claim:
                 Legal Perspectives
               </h1>
-              <p className="line-clamp-3 text-justify">
+              <p className="text-justify line-clamp-3">
                 Navigating an injury claim can be a complex and intricate
                 process, particularly when pre-existing conditions are involved.
                 These conditions can significantly affect the outcome of your
@@ -77,16 +86,19 @@ const Blogs = () => {
           </div>
         </NavLink>
         <hr />
-        <NavLink to="/blogs/4">
-          <div className="grid grid-cols-4 items-center gap-10 px-5">
+        <NavLink to="/blogs/page1/4">
+          <div className="grid items-center grid-cols-4 gap-10 px-5">
             <div className="h-[124px] overflow-hidden">
-              <img src="/images/blogs/4/1.webp" className="h-[124px] w-full object-cover object-center rounded-xl border-4" />
+              <img
+                src="/images/blogs/4/1.webp"
+                className="h-[124px] w-full rounded-xl border-4 object-cover object-center"
+              />
             </div>
             <div className="col-span-3">
-              <h1 className="mb-5 line-clamp-1 text-justify text-2xl font-bold">
+              <h1 className="mb-5 text-2xl font-bold text-justify line-clamp-1">
                 7 Red Flags to Watch Out for When Hiring an Injury Attorney
               </h1>
-              <p className="line-clamp-3 text-justify">
+              <p className="text-justify line-clamp-3">
                 Choosing the right personal injury attorney can be the linchpin
                 to successfully navigating the complex landscape of legal claims
                 and securing the compensation you deserve. However, the path to
@@ -103,17 +115,20 @@ const Blogs = () => {
           </div>
         </NavLink>
         <hr />
-        <NavLink to="/blogs/5">
-          <div className="grid grid-cols-4 items-center gap-10 px-5">
+        <NavLink to="/blogs/page1/5">
+          <div className="grid items-center grid-cols-4 gap-10 px-5">
             <div className="h-[124px] overflow-hidden">
-              <img src="/images/blogs/5/1.webp" className="h-[124px] w-full object-cover object-center rounded-xl border-4" />
+              <img
+                src="/images/blogs/5/1.webp"
+                className="h-[124px] w-full rounded-xl border-4 object-cover object-center"
+              />
             </div>
             <div className="col-span-3">
-              <h1 className="mb-5 line-clamp-1 text-justify text-2xl font-bold">
+              <h1 className="mb-5 text-2xl font-bold text-justify line-clamp-1">
                 Injury Attorneys and Client Communication: What to Expect
                 Throughout Your Case
               </h1>
-              <p className="line-clamp-3 text-justify">
+              <p className="text-justify line-clamp-3">
                 Embarking on a personal injury claim can be intimidating,
                 particularly when you're unsure about the process. A key element
                 to your case's success is how well your injury attorney
@@ -128,17 +143,20 @@ const Blogs = () => {
           </div>
         </NavLink>
         <hr />
-        <NavLink to="/blogs/6">
-          <div className="grid grid-cols-4 items-center gap-10 px-5">
+        <NavLink to="/blogs/page1/6">
+          <div className="grid items-center grid-cols-4 gap-10 px-5">
             <div className="h-[124px] overflow-hidden">
-              <img src="/images/blogs/6/1.webp" className="h-[124px] w-full object-cover object-center rounded-xl border-4" />
+              <img
+                src="/images/blogs/6/1.webp"
+                className="h-[124px] w-full rounded-xl border-4 object-cover object-center"
+              />
             </div>
             <div className="col-span-3">
-              <h1 className="mb-5 line-clamp-1 text-justify text-2xl font-bold">
+              <h1 className="mb-5 text-2xl font-bold text-justify line-clamp-1">
                 Technology and Personal Injury Law: How Attorneys Utilize
                 Innovation for Clients
               </h1>
-              <p className="line-clamp-3 text-justify">
+              <p className="text-justify line-clamp-3">
                 In today’s fast-paced world, technology influences every aspect
                 of life, including the legal field. Personal injury law,
                 traditionally reliant on paper-based systems and in-person
@@ -154,17 +172,20 @@ const Blogs = () => {
           </div>
         </NavLink>
         <hr />
-        <NavLink to="/blogs/7">
-          <div className="grid grid-cols-4 items-center gap-10 px-5">
+        <NavLink to="/blogs/page1/7">
+          <div className="grid items-center grid-cols-4 gap-10 px-5">
             <div className="h-[124px] overflow-hidden">
-              <img src="/images/blogs/7/1.webp" className="h-[124px] w-full object-cover object-center rounded-xl border-4" />
+              <img
+                src="/images/blogs/7/1.webp"
+                className="h-[124px] w-full rounded-xl border-4 object-cover object-center"
+              />
             </div>
             <div className="col-span-3">
-              <h1 className="mb-5 line-clamp-1 text-justify text-2xl font-bold">
+              <h1 className="mb-5 text-2xl font-bold text-justify line-clamp-1">
                 Protecting Your Rights in Medical Malpractice Cases: Guidance
                 from Injury Attorneys
               </h1>
-              <p className="line-clamp-3 text-justify">
+              <p className="text-justify line-clamp-3">
                 When you seek medical treatment, you trust that the
                 professionals in charge of your care will act responsibly and
                 proficiently. However, when that trust is broken due to
@@ -183,17 +204,20 @@ const Blogs = () => {
           </div>
         </NavLink>
         <hr />
-        <NavLink to="/blogs/8">
-          <div className="grid grid-cols-4 items-center gap-10 px-5">
+        <NavLink to="/blogs/page1/8">
+          <div className="grid items-center grid-cols-4 gap-10 px-5">
             <div className="h-[124px] overflow-hidden">
-              <img src="/images/blogs/8/1.webp" className="h-[124px] w-full object-cover object-center rounded-xl border-4" />
+              <img
+                src="/images/blogs/8/1.webp"
+                className="h-[124px] w-full rounded-xl border-4 object-cover object-center"
+              />
             </div>
             <div className="col-span-3">
-              <h1 className="mb-5 line-clamp-1 text-justify text-2xl font-bold">
+              <h1 className="mb-5 text-2xl font-bold text-justify line-clamp-1">
                 The Road to Recovery: How Injury Attorneys Assist with
                 Rehabilitation and Support
               </h1>
-              <p className="line-clamp-3 text-justify">
+              <p className="text-justify line-clamp-3">
                 Recovering from a serious injury is not only a physical
                 challenge but also an emotional and financial ordeal. The role
                 of an injury attorney extends beyond the courtroom; they are
@@ -206,9 +230,51 @@ const Blogs = () => {
             </div>
           </div>
         </NavLink>
+        <NavLink to="/blogs/page1/9">
+          <div className="grid items-center grid-cols-4 gap-10 px-5">
+            <div className="h-[124px] overflow-hidden">
+              <img
+                src="/images/blogs/9/1.webp"
+                className="h-[124px] w-full rounded-xl border-4 object-cover object-center"
+              />
+            </div>
+            <div className="col-span-3">
+              <h1 className="mb-5 text-2xl font-bold text-justify line-clamp-1">
+                Can You Afford a Personal Injury Lawyer? Understanding
+                Contingency Fees
+              </h1>
+              <p className="text-justify line-clamp-3">
+                Can you afford a personal injury lawyer? Find out how you can
+                access quality legal representation without upfront costs. Learn
+                how contingency fees work making legal representation accessible
+                with zero price.
+              </p>
+            </div>
+          </div>
+        </NavLink>
+        <NavLink to="/blogs/page1/10">
+          <div className="grid items-center grid-cols-4 gap-10 px-5">
+            <div className="h-[124px] overflow-hidden">
+              <img
+                src="/images/blogs/10/1.webp"
+                className="h-[124px] w-full rounded-xl border-4 object-cover object-center"
+              />
+            </div>
+            <div className="col-span-3">
+              <h1 className="mb-5 text-2xl font-bold text-justify line-clamp-1">
+                How We Can Help with Long-Term Medical Care After an Accident
+              </h1>
+              <p className="text-justify line-clamp-3">
+                Do you need a personal injury law firm who will support your
+                long-term medical care after an accident, securing the
+                compensation you need to move forward? Find one here
+              </p>
+            </div>
+          </div>
+        </NavLink>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Blogs;
+export default BlogsPage1;

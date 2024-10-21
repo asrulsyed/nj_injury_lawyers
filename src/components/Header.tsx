@@ -7,15 +7,18 @@ const Header = () => {
     <header className="flex items-center justify-center bg-color2 ">
       <div className="flex w-full max-w-[1200px] items-center justify-between py-5">
         <div className="flex items-center gap-5">
-          <NavLink to="/" className="flex items-center gap-3">
+          <NavLink to="/" className="flex items-center">
             <img
               src={logo}
               alt="Injury Lawyers"
               title="Injury Lawyers"
-              className="h-auto w-12"
+              className="h-auto w-12 mr-4 toleft"
             />
-            <span className="text-2xl font-bold text-color1 ">
-              Injury Lawyers
+            <span className="text-2xl font-bold text-color1 mr-1 toup">
+              Injury
+            </span>
+            <span className="text-2xl font-bold text-color1 ml-1 todown">
+              Lawyers
             </span>
           </NavLink>
         </div>
